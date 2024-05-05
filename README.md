@@ -6,9 +6,7 @@
 </div>
 
 # iPhone 15 Pro Website
-Recreating the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects. From custom animations to animated 3D models.
-
-
+Recreating the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects. From custom animations to animated 3D models. Along with full Performance & analytics metrics tracking using Sentry.
 
 Project Live Link: https://dc-iphone.vercel.app/
 
