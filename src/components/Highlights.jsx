@@ -12,7 +12,6 @@ const Highlights = () => {
       opacity: 1,
       y: 0,
       delay: 0.5,
-      // duration: 0.5,
       stagger: 0.1,
     });
   }, []);
