@@ -50,7 +50,7 @@ const Hero = () => {
 
       <div className="flex flex-col items-center">
         <a href="#highlights" className="btn cta opacity-0 translate-y-20">
-          Buy
+          Buy Now
         </a>
         <p className="font-normal text-xl cta opacity-0 translate-y-20">
           From $199/month or $999
