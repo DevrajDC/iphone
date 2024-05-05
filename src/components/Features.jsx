@@ -19,7 +19,7 @@ const Features = () => {
       },
     });
 
-    animateWithGsap("#features_title", { y: 0, opacity: 1 });
+    animateWithGsap(".features_title", { y: 0, opacity: 1 });
     animateWithGsap(
       ".g_grow",
       { scale: 1, opacity: 1, ease: "power1" },
@@ -37,15 +37,17 @@ const Features = () => {
     <section className="h-full common-padding bg-zinc relative overflow-hidden">
       <div className="screen-max-width">
         <div className="mb-12 w-full">
-          <h1 id="features_title" className="section-heading">
+          <h1 className="features_title section-heading">
             Explore the full story.
           </h1>
         </div>
 
         <div className="flex flex-col justify-center items-center overflow-hidden">
           <div className="mt-24 w-full mb-24 sm:pl-24">
-            <h2 className="text-5xl lg:text-7xl font-semibold">iPhone.</h2>
-            <h2 className="text-5xl lg:text-7xl font-semibold">
+            <h2 className="features_title opacity-0 translate-y-8 text-5xl lg:text-7xl font-semibold">
+              iPhone.
+            </h2>
+            <h2 className="features_title opacity-0 translate-y-8 text-5xl lg:text-7xl font-semibold">
               Forged in titanium.
             </h2>
           </div>
