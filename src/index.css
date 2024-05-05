@@ -29,6 +29,20 @@ canvas {
   max-width: 1120px;
 }
 
+::-webkit-scrollbar {
+  width: 16px;
+  height: 16px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-neutral-950;
+}
+
+::-webkit-scrollbar-thumb {
+  border: 4px solid #000;
+  @apply rounded-xl bg-neutral-700 cursor-grab;
+}
+
 @layer utilities {
   .flex-center {
     @apply flex items-center justify-center;
